@@ -2,8 +2,8 @@ FROM margrignard/shamo:python-0.2.0 AS binder
 
 RUN python3 -m pip install --no-cache-dir notebook==5.*
 
-ARG NB_USER=shamo \
-    NB_UID=1000
+ARG NB_USER=shamo
+ARG NB_UID=1000
 
 ENV USER=${NB_USER} \
     NB_UID=${NB_UID} \
