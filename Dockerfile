@@ -1,4 +1,4 @@
-FROM margrignard/shamo:python-0.2.0 AS binder
+FROM margrignard/shamo:python-0.3.2 AS binder
 
 
 USER root
